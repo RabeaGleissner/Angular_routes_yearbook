@@ -3,6 +3,9 @@
 <div id="intro">
   <h2>Cohort WDI 10 :: November 2014 - February 2015</h2>
   <p>16 survivors of the General Assembly Web Development Immersive course. Click us to find out more information.</p>
+
+  <h4>Know who you are looking for? Type the name in the search box.</h4>
+  <input id="student-search" ng-model="search" placeholder='Search students by first name' size="40">
 </div>
 
 
@@ -16,7 +19,6 @@
     </p>
     </div>
 
-    <input ng-model="search" placeholder='search students by first name'>
 
     <div id="photos">
       <div  ng-repeat="student in students | filter : {name: search}" ng-click="selectStudent(student)" >
