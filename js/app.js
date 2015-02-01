@@ -7,6 +7,8 @@
     $scope.projects = projects.sort(function(){
       return .5 - Math.random();
     });
+
+    
   }
 
   function GalleryController($scope, $routeParams) {

@@ -165,9 +165,14 @@ nav ul li a {
   min-width: 280px;
   display:inline-block;
   background-color:rgba(255, 255, 0, 0.4);
-  padding: 5px;
+  padding: 1em;
+
   margin: 5px;
-  
+}
+
+.tech_item:hover {
+  background-color:rgba(255, 255, 0, 0.6);
+
 }
 
 .teacher {
@@ -183,5 +188,6 @@ footer {
   padding-bottom:20px;
   font-size:0.8em;
 }
+
 
 
