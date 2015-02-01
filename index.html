@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='yearbook'>
+<head>
+  <meta charset="UTF-8">
+  <title>WDI Yearbook</title>
+  <script type="text/javascript" src="/js/angular.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="/js/angular-route.js"></script>
+  <script type="text/javascript" src="/js/font.js"></script>
+  <script type="text/javascript" src="/js/app.js"></script>
+  <link rel="stylesheet" href="/css/normalise.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <div class='nav'>
+    <nav>
+      <ul>
+        <li><a href="#/gallery">Who we are</a></li>
+        <li><a href="#/projects">What we created</a></li>
+        <li><a href="#/technology">What we know</a></li>
+        <li><a href="#/teachers">Who taught us</a></li>
+      </ul>
+    </nav>
+  </div>
+  <h1>General Assembly Web Development Immersive</h1>
+  
+
+  
+  
+<div ng-view></div>
+
+<footer >
+  <p>This website was created by Rabea Gleissner. For more information about the bootcamp course, checkout <a href="http://www.generalassemb.ly">the General Assembly website</a>.</p>
+
+</footer>
+
+</body>
+</html>

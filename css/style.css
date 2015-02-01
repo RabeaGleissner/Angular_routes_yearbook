@@ -1,0 +1,182 @@
+body {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 18px;
+}
+
+.wrap-all {
+  max-width:1000px;
+  margin:0 auto;
+}
+
+h1 {
+font-size: 2.5em;
+padding: 0.5em;
+}
+
+h2 {
+  font-size: 2em;
+  color: deeppink;
+  
+}
+
+h3 {
+  font-size: 2em;
+}
+
+
+#photos {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: flex-end;
+  align-content: flex-end;
+  max-width:750px;
+  margin: 0 auto;
+}
+
+#all-projects {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: flex-end;
+  align-content: flex-end;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#project-intro {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#project {
+  min-width:150px;
+  max-width:290px;
+  display: inline;
+  padding-bottom:20px;
+  padding-right: 5px;
+}
+
+#project img {
+  margin:0 auto;
+  width: 150px;
+}
+
+#photos img{
+  min-width:150px;
+  padding:5px;
+  border: 4px solid yellow;
+}
+
+#intro {
+  max-width: 690px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.test {
+  position: relative;
+}
+
+.overlay {
+  max-width: 500px;
+  max-height: 300px;
+  min-height: 100px;
+  background-color: rgba(255,255,224,0.9);
+  position: fixed;
+  top: 210px;
+  left: 50%;
+  margin-left: -270px;
+  padding: 20px;
+}
+
+.image.hover {
+  display:none;
+}
+
+.hover-image {
+  display:none;
+}
+
+.hover-image.hover {
+  display:flex;
+}
+
+.close {
+  cursor: pointer;
+  text-align:right;
+  padding-right: 5px;
+}
+nav ul {
+  float:right;
+  padding-right:20px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding:10px;
+  background-color: yellow;
+}
+
+#github, #linkedin {
+  width:50px;
+}
+nav ul li a {
+  text-decoration:none;
+  color:deeppink;
+  font-size:1.1em;
+}
+#projects {
+  max-width:950px;
+  margin: 0 auto;
+}
+
+/*#tech-wrapper {
+ background: url(/images/wdi.jpg) no-repeat fixed 100%; 
+}*/
+#technology {
+  
+  max-width:950px;
+  margin: 0 auto;
+}
+#teachers{
+  max-width:950px;
+  margin: 0 auto;
+}
+.tech_item {
+  max-width: 400px;
+  min-width: 280px;
+  display:inline-block;
+  background-color:rgba(255, 255, 0, 0.4);
+  padding: 5px;
+  margin: 5px;
+  
+}
+
+.teacher {
+  max-width: 300px;
+  min-width: 280px;
+  display:inline-block;
+}
+
+footer {
+  max-width:750px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom:20px;
+  font-size:0.8em;
+}
