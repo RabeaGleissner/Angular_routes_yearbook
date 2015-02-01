@@ -16,8 +16,10 @@
     </p>
     </div>
 
+    <input ng-model="search" placeholder='search students by first name'>
+
     <div id="photos">
-      <div  ng-repeat="student in students" ng-click="selectStudent(student)" >
+      <div  ng-repeat="student in students | filter : {name: search}" ng-click="selectStudent(student)" >
         <img ng-mouseover="studentHoverImage(student)" ng-class="{hover: student == hoverStudent}" class="image" src="{{ student.image }}" alt="Photo of WDI student">
         <img class="hover-image" ng-class="{hover: student == hoverStudent}" src="{{ student.hoverImage }}" alt="Hover photo of WDI student"> 
       </div>          

@@ -27,17 +27,15 @@
     $scope.clearSelectedStudent = function() {
       $scope.selectedStudent = false;
     };
-    console.log('gallery controller');
+
   }
 
   function TeachersController($scope, $routeParams) {
-   // $scope.students = students;
-    console.log('teacher controller');
+
   }
 
   function TechnologyController($scope, $routeParams) {
-   // $scope.students = students;
-    console.log('technology controller');
+
   }
 
 
